@@ -1,0 +1,96 @@
+[2015-03-20 15:36:49] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use Illuminate\Routing\Controller as Controller because the name is already in use' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:3
+Stack trace:
+#0 {main}  
+[2015-03-20 15:40:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')', expecting ']'' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:17] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:33] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:36] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'user' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:37] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'user' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'user' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:48:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:8
+Stack trace:
+#0 {main}  
+[2015-03-20 15:49:02] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:9
+Stack trace:
+#0 {main}  
+[2015-03-20 15:49:05] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:9
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:01] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:11] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:11
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:19] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:20] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:20] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:50:20] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:52:16] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Auth' not found' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:10
+Stack trace:
+#0 {main}  
+[2015-03-20 15:54:16] local.ERROR: exception 'ErrorException' with message 'Undefined variable: email' in D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php:18
+Stack trace:
+#0 D:\WORK\Project\PhoneService\app\Http\Controllers\AuthController.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', 'D:\WORK\Project...', 18, Array)
+#1 [internal function]: App\Http\Controllers\AuthController->Login()
+#2 D:\WORK\Project\PhoneService\vendor\compiled.php(8287): call_user_func_array(Array, Array)
+#3 D:\WORK\Project\PhoneService\vendor\compiled.php(8354): Illuminate\Routing\Controller->callAction('Login', Array)
+#4 D:\WORK\Project\PhoneService\vendor\compiled.php(8333): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\AuthController), Object(Illuminate\Routing\Route), 'Login')
+#5 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#6 D:\WORK\Project\PhoneService\vendor\compiled.php(8952): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#7 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#8 D:\WORK\Project\PhoneService\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 D:\WORK\Project\PhoneService\vendor\compiled.php(8334): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#10 D:\WORK\Project\PhoneService\vendor\compiled.php(8320): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\AuthController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'Login')
+#11 D:\WORK\Project\PhoneService\vendor\compiled.php(7317): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\Http\Contro...', 'Login')
+#12 D:\WORK\Project\PhoneService\vendor\compiled.php(7288): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#13 D:\WORK\Project\PhoneService\vendor\compiled.php(6954): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 D:\WORK\Project\PhoneService\vendor\compiled.php(8952): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#16 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#17 D:\WORK\Project\PhoneService\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#18 D:\WORK\Project\PhoneService\vendor\compiled.php(6955): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#19 D:\WORK\Project\PhoneService\vendor\compiled.php(6944): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#20 D:\WORK\Project\PhoneService\vendor\compiled.php(6929): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#21 D:\WORK\Project\PhoneService\vendor\compiled.php(1935): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#23 D:\WORK\Project\PhoneService\vendor\compiled.php(8952): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 D:\WORK\Project\PhoneService\vendor\compiled.php(2438): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 D:\WORK\Project\PhoneService\app\Http\Middleware\VerifyCsrfToken.php(17): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): App\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#27 D:\WORK\Project\PhoneService\vendor\compiled.php(12083): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#28 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#29 D:\WORK\Project\PhoneService\vendor\compiled.php(10785): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 D:\WORK\Project\PhoneService\vendor\compiled.php(11789): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#32 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#33 D:\WORK\Project\PhoneService\vendor\compiled.php(11738): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 D:\WORK\Project\PhoneService\vendor\compiled.php(2478): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 D:\WORK\Project\PhoneService\vendor\compiled.php(8944): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 D:\WORK\Project\PhoneService\vendor\compiled.php(8935): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#39 D:\WORK\Project\PhoneService\vendor\compiled.php(1891): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#40 D:\WORK\Project\PhoneService\vendor\compiled.php(1880): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#41 D:\WORK\Project\PhoneService\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#42 {main}  
