@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app="starter" ng-controller="AppController">
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Phone Book</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#/home">Contacts</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="javascript:void(0)" ng-if="signin" ng-click="logout()">Logout</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+      <ng-view >Loading...</ng-view>
+    </div>
+
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/angularjs/angular.min.js" type="text/javascript"></script>
+<script src="lib/angular-route/angular-route.min.js" type="text/javascript"></script>
+<script src="lib/angularjs/md5.js" type="text/javascript"></script>
+<script src="lib/app/authService.js" type="text/javascript"></script>
+<script src="lib/app/app.js" type="text/javascript"></script>
+
+</body>
+
+</html> 

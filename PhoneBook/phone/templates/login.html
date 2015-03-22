@@ -1,0 +1,15 @@
+<form >
+
+  <h2 class="form-signin-heading">Please sign in</h2>
+  <div class="form-group">
+    <label>Username</label>
+    <input type="text" class="form-control" placeholder="Username" ng-model="username">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" placeholder="Password" ng-model="password">
+  </div>
+  <p class="btn btn-block bg-danger" ng-if="loginfield">{{signinbad}}</p>    
+  <button class="btn btn-lg btn-primary btn-block" type="button" ng-click="Signin()">Sign in</button>
+      
+</form>
